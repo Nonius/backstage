@@ -1,6 +1,6 @@
 ---
-id: index
-title: Overview
+id: cli-overview
+title: CLI Overview
 description: Overview of the Backstage CLI
 ---
 

@@ -29,7 +29,14 @@
       "getting-started/contributors",
       "getting-started/project-structure"
     ],
-    "CLI": ["cli/index", "cli/commands"],
+    "Tooling": [
+      {
+        "type": "subcategory",
+        "label": "CLI",
+        "ids": ["tooling/cli-overview", "tooling/cli-commands"]
+      },
+      "tooling/linking-local-packages"
+    ],
     "Core Features": [
       {
         "type": "subcategory",

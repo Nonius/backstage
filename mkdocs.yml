@@ -27,9 +27,11 @@ nav:
       - Key Concepts: 'getting-started/concepts.md'
       - Contributors: 'getting-started/contributors.md'
       - Project Structure: 'getting-started/project-structure.md'
-  - CLI:
-      - Overview: 'cli/index.md'
-      - Commands: 'cli/commands.md'
+  - Tooling:
+    - CLI:
+        - Overview: 'tooling/cli-overview.md'
+        - Commands: 'tooling/cli-commands.md'
+    - Linking in Local Packages: 'tooling/linking-local-packages.md'
   - Core Features:
       - Software Catalog:
           - Overview: 'features/software-catalog/index.md'
