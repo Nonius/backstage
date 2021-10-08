@@ -41,6 +41,12 @@ import {
 
 // ...
 
+bindRoutes({ bind }) {
+  bind(catalogPlugin.externalRoutes, {
+    // ... other plugins
+    viewTechDoc: techdocsPlugin.routes.docRoot,
+  });
+
 const AppRoutes = () => {
   <FlatRoutes>
     // ... other plugin routes
